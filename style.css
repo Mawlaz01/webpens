@@ -1,0 +1,344 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.navigasi {
+    font-weight: 100px;
+    font-family: arial;
+}
+
+.login {
+    background-color: royalblue;
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+    border: 0px;
+    color: white;
+}
+
+.navigasi a {
+    margin: 5px;
+    text-decoration: 10px;
+    color: black;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.pens {
+    height: 400px;
+    width: 650px;
+    display: flex;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.paragraf {
+    border-radius: 5px 0px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: #212429;
+    font-family: arial;
+    color: white;
+    align-items: end;
+    height: 400px;
+    width: 650px;
+}
+
+.button1 {
+    background-color: royalblue;
+    border-radius: 5px;
+    width: 70px;
+    height: 35px;
+    border: 0px;
+    color: white;
+}
+
+.button2 {
+    background-color: white;
+    border-radius: 5px;
+    width: 70px;
+    height: 35px;
+    border: 0px;
+    color: black;
+}
+
+.tombol {
+    margin-right: 50px;
+}
+
+.teks {
+    margin-right: 50px;
+    margin-top: -20px;
+}
+
+.judul {
+    margin-right: 50px;
+    margin-top: 35px;
+}
+
+.berita {
+    font-family: arial;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.judulberita {
+    width: 610px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.isiberita {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.berita1 {
+    border: 1px solid gray;
+    margin: 0px 0px 0px 30px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.berita2 {
+    border: 1px solid gray;
+    margin: 0px 25px 0px 25px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.berita3 {
+    border: 1px solid gray;
+    margin: 0px 30px 0px 0px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.article {
+    height: 200px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.news {
+    width: 350px;
+    margin-left: 30px;
+}
+
+.wartawan {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 50px;
+}
+
+ul {
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.wartawan_foto {
+    width: 50px;
+    height: 60px;
+}
+
+.galeri {
+    font-family: arial;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.judulgaleri {
+    width: 610px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.isigaleri {
+    margin-top: 30px;
+    display: flex;
+
+}
+
+.galeri1 {
+    height: 510px;
+    margin-right: 10px;
+}
+
+.galeri2 {
+    height: 250px;
+    width: 500px;
+    margin: 0px 10px 10px 0px;
+}
+
+.galeri3 {
+    height: 250px;
+    width: 500px;
+    margin-right: 10px;
+}
+
+.galeri4 {
+    height: 300px;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.galeri5 {
+    height: 200px;
+    width: 500px;
+}
+
+.servis {
+    font-family: arial;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kontak {
+    width: 610px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.kontak_isi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.icon {
+    display: flex;
+    justify-content: end;
+}
+
+.isi {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 10px ;
+    margin-top: 25px;
+}
+
+.isi p {
+    margin-top: 0px;
+}
+
+.iconimg {
+    background-color: royalblue;
+    height: 20px;
+    padding: 10px 10px 10px 10px;
+    border-radius:5px;
+    margin-top: 25px;
+}
+
+.tombolkirim {
+    width: 300px;
+    background-color: royalblue;
+    color: white;
+    border: 0px;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.kirim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.kirim input {
+    width: 300px;
+    padding: 7px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.kirim textarea {
+    width: 300px;
+    padding: 7px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-family: arial;
+    color: grey;
+}
+
+.data {
+    margin: 0px 50px 40px 0px;
+}
+
+.footer {
+    background-color: #212429;
+    color: white;
+    font-family: arial;
+    margin-top: 50px;
+}
+
+.informasi {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 45px;
+}
+
+.departemen li {
+    color: white;
+    margin-right: 100px;
+    list-style: none;
+    margin-top: 5pxpx;
+}
+
+.gambarlogo {
+    width: 25%;
+}
+
+hr {
+    width: 1250px;
+    border: 0px;
+    border-bottom: 1px solid white;
+    margin: 20px 43px;
+}
+
+.departemen li a {
+    color: white;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sosmed {
+    margin:0px 20px 20px 50px;
+    padding: 10px;
+}
+
+.sosmed img {
+    margin-right:  10px;
+}
+
+.copyright p {
+    margin-left: 40px;
+}
+
